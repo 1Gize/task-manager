@@ -1,0 +1,32 @@
+= Calendar / TaskManager
+:library: Asciidoctor
+:idprefix:
+:numbered:
+:toc: preamble
+:toc-title: pass:[<h3>Table od contents</h3>]
+ifdef::env-github[]
+:note-caption: :information_source:
+:tip-caption: :bulb:
+endif::[]
+
+== What is it?
+
+Program works as a automatic calendar in which u can add task recurring tasks,
+and shows your timetable for given day.
+
+== Dependencies
+
+To run this program u will only need basic test tool for scala,
+which are: scalatic and scalatest
+
+.Library dependecies
+[source,sbt]
+libraryDependencies += "org.scalactic" %% "scalactic" % "3.2.11"
+libraryDependencies += "org.scalatest" %% "scalatest" % "3.2.11" % "test"
+
+== How to run?
+
+To run this program first run `sbt test` to check if test dont fail after that
+launch main class which is `TaskManager` after that follow instructions which appear
+on console.
+
