@@ -30,3 +30,6 @@ To run this program first run `sbt test` to check if test dont fail after that
 launch main class which is `TaskManager` after that follow instructions which appear
 on console.
 
+== What were the main difficulties?
+There werent many difficulties per se the main problem for me was a scope
+but size of this task, took me 3hr to finnish it.
